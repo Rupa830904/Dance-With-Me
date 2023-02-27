@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+
+h2, h3 {font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #6d39cd;
+        
+    }
+
+    
+
+    #logo {
+        float: left;
+        font-size: 280%;
+       margin-left: 50px;
+        
+        }
+
+        #menu {
+            font-size: 110%;
+            letter-spacing: 4px
+
+        }
+
+        #menu, #logo {
+            line-height: 75px;
+        }
+
+        #menu li {
+            float: right;
+            list-style-type: none;
+            margin-right: 30px;
+        }
+
+        #menu a { 
+             text-decoration: none;
+             color: inherit;
+        }
+
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        .active {
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+       #school {
+        height: 2cm;
+        width: 2cm;
+       }
+       
+        #cover-text, #cover-text h2 {
+            color: #fff;
+        }
+
+      
+
+       
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, 7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+
+
+#coffee-box {
+	background-color: brown;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+
+
+
+
+
+#times {
+    background-image: url('../images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: bisque;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network > li {
+    display: inline;
+}
+
+.social-network i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+   
+    
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+         clear: left;
+         float: left;
+         margin-left: 30px;
+         margin-bottom: 20px;
+         line-height: 25px;
+     }
+     #cover-text {
+        left: 0;
+    }
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    #photos {
+        column-count: 3;
+    }
+    @media screen and (max-width: 800px) {
+        #photos: column-count: 2;
+        
+    }
+}
