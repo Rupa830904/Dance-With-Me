@@ -23,7 +23,7 @@ h2, h3 {font-family: Oswald, sans-serif;
     #logo {
         float: left;
         font-size: 280%;
-       margin-left: 50px;
+       margin-left: 30px;
         
         }
 
@@ -55,19 +55,102 @@ h2, h3 {font-family: Oswald, sans-serif;
         .active {
             border-bottom: 1px solid #3a3a3a;
         }
-
+       #hero-outer {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+       }
+       #cover-logo {
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 10px;
+        bottom: 30px;
+        right: 150px;
+       }
+       #hero-image {
+        height: 600px;
+        width: 100%;
+       }
+       
        #school {
         height: 2cm;
         width: 2cm;
        }
+
+       #experience {
+        height: 600px;
+        text-align: center;
+        padding-top: 30px;
+       }
+
+       #left-about {
+        padding-top: 30px;
+        width: 20%;
+        float: left;
+        background-color: rgb(151, 151, 211);
+       }
+
+       #right-about {
+        padding-top: 30px;
+        width: 20%;
+        float: right;
+        background-color: rgb(219, 165, 165);
+       }
        
-        #cover-text, #cover-text h2 {
-            color: #fff;
-        }
+       #center-about {
+        width: 33%;
+        margin: 0 auto;
+        background-color: rgb(172, 221, 172);
+       }
+       
+       hr {
+        border-top: 1px solid #3a3a3a;
+        width: 100%;
+        margin: 5px 0;
+       }
+       .left-about-heading {
+        width: 70%;
+       text-align: center;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+        margin-top: 30px;
+       }
+
+      .right-about-heading {
+        width: 70%;
+        text-align: center;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+        margin-top: 30px;
+      }
+      .right-about-heading h3 {
+        text-align: center;
+      }
+      .right-about-heading p {
+        text-align: center;
+      }
+       .center-about-heading {
+        width: 100%;
+        line-height: 20px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        height: 60px;
+    }
+    .center {
+        text-align: center;
+       }
 
       
+      
+      
 
-       
+
+
+
+
 
 
 #cover-text {
