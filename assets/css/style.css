@@ -10,24 +10,28 @@ body {font-family: Lato, sans-serif;
     color: #3a3a3a;
 }
 
+h1 {
+    font-family: oswald, sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
 
-h2, h3 {font-family: Oswald, sans-serif;
+
+h2, h3 {font-family: oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 4px;
         color: #6d39cd;
         
     }
 
-    
-
-    #logo {
-        float: left;
-        font-size: 280%;
-       margin-left: 30px;
-        
-        }
-
-        #menu {
+    .page-header {
+        height: 20vh;
+        background: center 75% / cover no-repeat;
+    }
+    .text-center {
+        text-align: center;
+    }
+     #menu {
             font-size: 110%;
             letter-spacing: 4px
 
@@ -142,51 +146,14 @@ h2, h3 {font-family: Oswald, sans-serif;
     .center {
         text-align: center;
        }
+       .description-box p {
+            width: 70%;
+            margin-top: 30px;
+            line-height: 20px;
+            text-align: center;
 
-      
-      
-      
-
-
-
-
-
-
-
-#cover-text {
-    font-size: 130%;
-    font-family: oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, 7);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-}
-
-
-
-#coffee-box {
-	background-color: brown;
-    position: relative;
-    left: 70px;
-    top: -15px;
-}
-
-
-
-
-
-#times {
+       }
+      #times {
     background-image: url('../images/background-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
