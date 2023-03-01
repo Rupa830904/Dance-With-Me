@@ -38,9 +38,8 @@ h2, h3 {font-family: oswald, sans-serif;
        .navbar {
             font-size: 110%;
             letter-spacing: 4px;
-            display: flex;
             position: fixed;
-            justify-content: flex-end;
+            
 
         }
         .navbar a {
@@ -248,6 +247,11 @@ footer {
 
 #times h2 {
     color: brown;
+}
+
+#hero-image {
+    margin-top: 30px;
+    overflow: hidden;
 }
 
 
