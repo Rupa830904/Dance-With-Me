@@ -26,6 +26,8 @@ h2, h3 {font-family: oswald, sans-serif;
         
     }
 
+    
+
     .page-header {
         height: 20vh;
         background: center 75% / cover no-repeat;
@@ -33,28 +35,31 @@ h2, h3 {font-family: oswald, sans-serif;
     .text-center {
         text-align: center;
     }
-     #menu {
+       .navbar {
             font-size: 110%;
-            letter-spacing: 4px
+            letter-spacing: 4px;
+            display: flex;
+            position: fixed;
+            justify-content: flex-end;
 
         }
+        .navbar a {
+            display: block;
+            height: 50%;
+            margin: 0 20px;
+            line-height: 20px;
+            font-size: 22px;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
 
-        #menu, #logo {
+         #logo {
             line-height: 75px;
         }
 
-        #menu li {
-            float: right;
-            list-style-type: none;
-            margin-right: 30px;
-        }
-
-        #menu a { 
-             text-decoration: none;
-             color: inherit;
-        }
-
-        #menu a:hover {
+             
+        .navbar a:hover {
             border-bottom: 1px solid #3a3a3a;
         }
 
@@ -145,19 +150,29 @@ h2, h3 {font-family: oswald, sans-serif;
     .center {
         text-align: center;
        }
+    .dance-header {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+       
 
        
        .description-box  {
             width: 100%;
             margin-top: 30px;
+            margin-left: 70px;
+            margin-right: 70px;
             line-height: 20px;
             text-align: center;
             font-size: large;
            
         }
         #folk-image {
-            margin: 0 auto;
-            width: 100%;
+           margin: 0 auto;
+           
         }
 
 
@@ -176,8 +191,8 @@ h2, h3 {font-family: oswald, sans-serif;
 }
 
 #times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    color: brown;
+    background-color: whitesmoke;
     width: 20%;
     height: 300px;
     float: left;
@@ -185,11 +200,19 @@ h2, h3 {font-family: oswald, sans-serif;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #times h2 {
     color: bisque;
 }
+
+#times h3 {
+    color: black;
+}
+
 
 /* footer */
 
@@ -221,6 +244,10 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+
+#times h2 {
+    color: brown;
 }
 
 
