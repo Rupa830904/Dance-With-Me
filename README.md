@@ -15,5 +15,30 @@ DANCE WITH RUPA is a website that allows users to know everything about Indian D
     * This will allow the user to follow Rupa on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact Rupa directly.
 ![Footer](docs/images/Footer.JPG)
 
+### Home Page
+* Home page image
+    * This will be showing an image if Dancers in various Indian classical Dacne Poses.
+    * The logo of Almhult Culture school ensures user that courses are approved by the school.
+    
+
+![Home Page Image](docs/images/Home_page.JPG)
+
+* Website information on 'Dance With Rupa'
+    * This will help the user what to know the benefits of dance.
+    * This also provide the user with Rupa's contact information.
+
+### Projects Page
+* Projects
+    * The projects gallery will provide the user with photos of Rupa's dance projects across the country.
+    * This will allow users that are interested in Dance if they wish to join the lessons. 
+
+![Projects](docs/images/Projects.JPG)
+
+### Lessons Page
+* Lessons
+    * This will give the informations to the user about the Dance Lessons available in Culture School.
+    * This will provides the information of Time and Place and Categories of all lessons.
+
+![Projects](docs/images/Lessons.JPG)
 
 
