@@ -39,6 +39,31 @@ DANCE WITH RUPA is a website that allows users to know everything about Indian D
     * This will give the informations to the user about the Dance Lessons available in Culture School.
     * This will provides the information of Time and Place and Categories of all lessons.
 
-![Projects](docs/images/Lessons.JPG)
+![Lessons](docs/images/Lessons.JPG)
+
+### Danceforms Page
+* DanceForms
+    * This will tell user about the about various dance forms taught in Cultur School.
+    * This will also provide brief definition about the dance forms which helps user to choose the best fit for themselves.
+
+![DanceForms](docs/images/Danceforms.JPG)
 
 
+
+
+
+
+# Technologies
+
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* Visual Studio Code
+    * The website was developed using Visual Studio Code IDE
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
