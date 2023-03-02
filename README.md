@@ -1,14 +1,12 @@
 # DANCE WITH RUPA
 
-DANCE WITH RUPA is a website that allows users to know everything about Indian Dance Lessons in Älmhult (A small town in South Sweden). Rupa Pal is a Dance teacher in Älmhult Culture School. The website provides information to the user about the benefits of dance in life. It also tells interested people about details of lessons available in Älmhult Culture School.It shares the gallery of past projects conducted by Rupa and her students. Rupa also provides a brief overview of type dance forms she teaches to her students. View the live site [here]()
-
-![Mockup](docs/readme_images/mockup.JPG)
+DANCE WITH RUPA is a website that allows users to know everything about Indian Dance Lessons in Älmhult (A small town in South Sweden). Rupa Pal is a Dance teacher in Älmhult Culture School. The website provides information to the user about the benefits of dance in life. It also tells the user about details of lessons available in Älmhult Culture School.It shares the gallery of past projects conducted by Rupa and her students. User also gets a brief overview of type dance forms she teaches to her students. View the live site [here]()
 
 ## Features 
 
 ### Site wide
 * Navigation Menu
-    * Contains links to the Home, Gallery ,Lessons and Dance Forms pages and will be responsive on all devices.
+    * Contains links to the Home, Project ,Lessons and Dance Forms pages and will be responsive on all devices.
     * This will allow users to easily navigate between the pages within the site on any size device. 
 
 ![Nav Menu](docs/readme_images/navigation_menu.JPG)
