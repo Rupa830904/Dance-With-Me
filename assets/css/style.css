@@ -269,7 +269,6 @@ footer {
 }
 .left-about-heading {
     text-align: center;
-    
 }
 #right-about {
    
@@ -277,6 +276,26 @@ footer {
 }
 center-about {
     width: 30%;
+}
+#hero-image {
+    width: 100%;
+}
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #902323;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-container {
+    margin-top: 100px;
+}
+#circle-container {
+    position: inherit;
 }
 
 
