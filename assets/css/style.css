@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     border: none;
 }
 body {font-family: Lato, sans-serif;
@@ -81,7 +81,7 @@ h2, h3 {font-family: oswald, sans-serif;
        }
        #hero-image {
         height: 600px;
-        width: 100%;
+        width: auto;
        }
        
        
@@ -119,7 +119,7 @@ h2, h3 {font-family: oswald, sans-serif;
        }
        .left-about-heading {
         width: 70%;
-       text-align: center;
+        text-align: center;
         line-height: 20px;
         clear: both;
         margin-bottom: 50px;
@@ -246,6 +246,8 @@ footer {
     width: 100%;
 }
 
+
+
 #times h2 {
     color: brown;
 }
@@ -254,7 +256,29 @@ footer {
     margin-top: 30px;
     overflow: hidden;
 }
-.
+#center-about {
+    height: 150px;
+}
+.center-about-heading {
+    padding-top: 20px;
+    text-align: center;
+}
+#left-about {
+    
+    width: 30%;
+}
+.left-about-heading {
+    text-align: center;
+    
+}
+#right-about {
+   
+    width: 30%;
+}
+center-about {
+    width: 30%;
+}
+
 
 
 @media screen and (max-width: 1200px) {
