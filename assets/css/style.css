@@ -38,7 +38,7 @@ h2, h3 {font-family: oswald, sans-serif;
        .navbar {
             font-size: 110%;
             letter-spacing: 4px;
-            position: fixed;
+           
             
 
         }
@@ -51,6 +51,7 @@ h2, h3 {font-family: oswald, sans-serif;
             cursor: pointer;
             text-decoration: none;
             color: inherit;
+            float: left;
         }
 
          #logo {
@@ -237,7 +238,7 @@ footer {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
 }
 
@@ -253,6 +254,7 @@ footer {
     margin-top: 30px;
     overflow: hidden;
 }
+.
 
 
 @media screen and (max-width: 1200px) {
@@ -305,11 +307,7 @@ footer {
      #cover-text {
         left: 0;
     }
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
+    
     .left-about-heading, .right-about-heading {
         width: inherit;
     }
