@@ -9,11 +9,11 @@ DANCE WITH RUPA is a website that allows users to know everything about Indian D
     * Contains links to the Home, Project ,Lessons and Dance Forms pages and will be responsive on all devices.
     * This will allow users to easily navigate between the pages within the site on any size device. 
 
-![Nav Menu](docs/readme_images/navigation_menu.JPG)
+![Nav Menu](docs/images/Navigation.JPG)
 * Footer
     * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain contact information for Rupa.
     * This will allow the user to follow Rupa on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact Rupa directly.
-
+![Footer](docs/images/Footer.JPG)
 
 
 
