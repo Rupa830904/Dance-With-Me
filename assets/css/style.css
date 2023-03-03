@@ -291,9 +291,7 @@ center-about {
 #circle-container {
     position: initial;
 }
-#contact {
-    position: fixed;
-}
+
 .description-box {
     width: 50%;
     height: 100px;
