@@ -181,14 +181,7 @@ h2, h3 {font-family: oswald, sans-serif;
             width: 100%;
            margin: 0 auto;
         }
-      #times {
-    background-image: url('../images/background-image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
+    
 
 #times div {
     color: brown;
@@ -289,28 +282,35 @@ center-about {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+   
 }
 
 #circle-container {
     margin-top: 100px;
 }
 #circle-container {
-    position: inherit;
+    position: initial;
+}
+#contact {
+    position: fixed;
+}
+.description-box {
+    width: 50%;
+    height: 100px;
+    text-align: left;
+    margin-left: 25%;
 }
 
 
 
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #experience {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
+    
 
     #left-about, #right-about {
         width: 100%;
@@ -365,10 +365,16 @@ center-about {
         padding: 0 20px;
     }
     #photos {
-        column-count: 3;
+        column-count: 2;
     }
-    @media screen and (max-width: 800px) {
-        #photos: column-count: 2;
-        
-    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    #photos {column-count: 2;
+    
+}
+.description-box {
+    height: 200px;
+}
 }
