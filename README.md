@@ -117,13 +117,13 @@ Each item opened a new tab when clicked as expected.
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Home HTML Validator Results](docs/testing/home_validator.JPG)
+![Home HTML Validator Results](docs/images/home_validator.JPG)
 
-![DanceForms HTML Validator Results](docs/testing/danceforms_validator.JPG)
+![DanceForms HTML Validator Results](docs/images/danceforms_validator.JPG)
 
-![Projects HTML Validator Results](docs/testing/Projects_validator.JPG)
+![Projects HTML Validator Results](docs/images/Projects_validator.JPG)
 
-![Lessons HTML Validator Results](docs/testing/lessons_validator.JPG)
+![Lessons HTML Validator Results](docs/images/lessons_validator.JPG)
 
 ### Test Email Link
 
