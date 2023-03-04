@@ -146,7 +146,7 @@ Each item opened a new tab when clicked as expected.
 
 ### Version Control
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘https://github.com/Rupa830904/Dance-With-Me’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository https://github.com/Rupa830904/Dance-With-Me.
 
 The following git commands were used throughout development to push code to the remote repo:
 
