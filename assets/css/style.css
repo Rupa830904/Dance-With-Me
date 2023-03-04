@@ -298,7 +298,11 @@ footer {
     font-size: 30px;
     text-align: center;
 }
+
     
+    #photos {width:auto;
+        height: auto;
+    }
     
 
 @media screen and (max-width: 1200px) {
@@ -332,8 +336,8 @@ footer {
     hr {
         display: none;
     }
-   
-    
+    #photos {width:auto;
+        height: auto;}
 }
 
 @media screen and (max-width: 950px) {
@@ -374,6 +378,22 @@ footer {
 }
 .description-box {
     height: 200px;
+    width: 80%;
+}
+#times > div {
+    height: 250px
+}
+#photos {width:auto;
+         height: auto;}
+}
+
+@media screen and (max-width: 350px) {
+    #photos {column-count: 2;
+    
+}
+.description-box {
+    height: 250px;
+    width: 80%;
 }
 #times > div {
     height: 250px
