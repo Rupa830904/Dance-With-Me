@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 * {
     margin: auto;
-    padding: auto;
+    padding: 0;
     border: none;
 }
 body {font-family: Lato, sans-serif;
@@ -293,6 +293,11 @@ footer {
     height: 30px;
     width: 30px;
 }
+
+.text-form {
+    font-size: 30px;
+    text-align: center;
+}
     
     
 
@@ -373,4 +378,6 @@ footer {
 #times > div {
     height: 250px
 }
+#photos {width:auto;
+         height: auto;}
 }
