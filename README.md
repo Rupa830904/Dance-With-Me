@@ -67,3 +67,76 @@ DANCE WITH RUPA is a website that allows users to know everything about Indian D
     * Used to commit and push code during the development opf the Website
 * Font Awesome
     * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
+
+###Functional Testing
+
+### Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load    |
+| --------------- | --------------- |
+| Home            | index.html      |
+| Dance Forms      | danceforms.html |
+| Projects        | projects.html    |
+| Lessons        | lessons.html    |
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
+
+Each item opened a new tab when clicked as expected.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Home HTML Validator Results](docs/testing/home_validator.JPG)
+
+![DanceForms HTML Validator Results](docs/testing/danceforms_validator.JPG)
+
+![Projects HTML Validator Results](docs/testing/Projects_validator.JPG)
+
+![Lessons HTML Validator Results](docs/testing/lessons_validator.JPG)
+
+## Deployment
+
+### Version Control
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘https://github.com/Rupa830904/Dance-With-Me’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - 
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
