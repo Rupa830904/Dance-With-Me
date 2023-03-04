@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
 * {
     margin: auto;
     padding: auto;
@@ -9,25 +8,19 @@ body {font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
-
 h1 {
     font-family: oswald, sans-serif;
     font-size: 3rem;
     margin: 0;
     margin-top: 10px;
-}
-
-
+   }
 h2, h3 {font-family: oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 3px;
         color: #6d39cd;
         margin-top: 10px;
         
-    }
-
-    
-
+       }
     .page-header {
         height: 20vh;
         background: center 75% / cover no-repeat;
@@ -38,10 +31,7 @@ h2, h3 {font-family: oswald, sans-serif;
        .navbar {
             font-size: 110%;
             letter-spacing: 4px;
-           
-            
-
-        }
+              }
         .navbar a {
             display: block;
             height: 50%;
@@ -53,7 +43,6 @@ h2, h3 {font-family: oswald, sans-serif;
             color: inherit;
             float: left;
         }
-
          #logo {
             line-height: 75px;
         }
@@ -267,7 +256,7 @@ footer {
    
     width: 30%;
 }
-center-about {
+#center-about {
     width: 30%;
 }
 #hero-image {
@@ -300,6 +289,12 @@ center-about {
 }
 
 
+#cover-logo {
+    height: 30px;
+    width: 30px;
+}
+    
+    
 
 @media screen and (max-width: 1200px) {
     #experience {
@@ -374,5 +369,8 @@ center-about {
 }
 .description-box {
     height: 200px;
+}
+#times > div {
+    height: 250px
 }
 }
