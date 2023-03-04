@@ -17,11 +17,11 @@ DANCE WITH RUPA is a website that allows users to know everything about Indian D
 
 ### Home Page
 * Home page image
-    * This will be showing an image if Dancers in various Indian classical Dacne Poses.
+    * This will be showing an image of Dancers in various Indian classical Dacne Poses.
     * The logo of Almhult Culture school ensures user that courses are approved by the school.
     
 
-![Home Page Image](docs/images/Home_page.JPG)
+![Home Page Image](docs/images/home.JPG)
 
 * Website information on 'Dance With Rupa'
     * This will help the user what to know the benefits of dance.
