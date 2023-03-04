@@ -49,8 +49,12 @@ DANCE WITH RUPA is a website that allows users to know everything about Indian D
 ![DanceForms](docs/images/Danceforms.JPG)
 
 
+### Existing Features
 
-
+* Responsive design.
+* Information to contact and register.
+* Lessons informations for users.
+* Project images and Dance forms information.
 
 
 # Technologies
@@ -68,7 +72,24 @@ DANCE WITH RUPA is a website that allows users to know everything about Indian D
 * Font Awesome
     * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
 
-###Functional Testing
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 350px and upwards on Chrome.
+
+Steps to test:
+
+1. Open browser and navigate to [Dance With Rupa]()
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 350px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width.
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
+
 
 ### Functional Testing
 
@@ -103,6 +124,18 @@ Each item opened a new tab when clicked as expected.
 ![Projects HTML Validator Results](docs/testing/Projects_validator.JPG)
 
 ![Lessons HTML Validator Results](docs/testing/lessons_validator.JPG)
+
+### Test Email Link
+
+1. Navigate to [Dance With Rupa - Home Page]()
+2. Click the email address (rupa.pal@almhult.se)
+
+### Test Registration Link
+
+1. Navigate to [Dance With Rupa - Home Page]()
+2. Click the studyalong link (Studyalong.se)
+
+
 
 ## Deployment
 
@@ -140,3 +173,9 @@ Navigate to the GitHub Repository you want to clone to use locally:
 - Type git clone copied-git-url into the IDE terminal
 
 The project will now of been cloned on your local machine for use.
+
+## Credits 
+
+* [Flexbox Tutorial](https://www.flexboxfroggy.com)
+    *  I learnt code to use flexbox to make the page responsive on every device.
+
