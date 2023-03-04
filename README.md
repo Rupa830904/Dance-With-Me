@@ -1,6 +1,6 @@
 # DANCE WITH RUPA
 
-DANCE WITH RUPA is a website that allows users to know everything about Indian Dance Lessons in Älmhult (A small town in South Sweden). Rupa Pal is a Dance teacher in Älmhult Culture School. The website provides information to the user about the benefits of dance in life. It also tells the user about details of lessons available in Älmhult Culture School.It shares the gallery of past projects conducted by Rupa and her students. User also gets a brief overview of type dance forms she teaches to her students. View the live site [here]()
+DANCE WITH RUPA is a website that allows users to know everything about Indian Dance Lessons in Älmhult (A small town in South Sweden). Rupa Pal is a Dance teacher in Älmhult Culture School. The website provides information to the user about the benefits of dance in life. It also tells the user about details of lessons available in Älmhult Culture School.It shares the gallery of past projects conducted by Rupa and her students. User also gets a brief overview of type dance forms she teaches to her students. View the live site [here](https://rupa830904.github.io/Dance-With-Me/)
 
 ## Features 
 
@@ -78,7 +78,7 @@ All pages were tested to ensure responsiveness on screen sizes from 350px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Dance With Rupa]()
+1. Open browser and navigate to [Dance With Rupa](https://rupa830904.github.io/Dance-With-Me/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 350px
 4. Set the zoom to 50%
@@ -132,12 +132,12 @@ Each item opened a new tab when clicked as expected.
 
 ### Test Email Link
 
-1. Navigate to [Dance With Rupa - Home Page]()
+1. Navigate to [Dance With Rupa - Home Page](https://rupa830904.github.io/Dance-With-Me/)
 2. Click the email address (rupa.pal@almhult.se)
 
 ### Test Registration Link
 
-1. Navigate to [Dance With Rupa - Home Page]()
+1. Navigate to [Dance With Rupa - Home Page](https://rupa830904.github.io/Dance-With-Me/)
 2. Click the studyalong link (Studyalong.se)
 
 
