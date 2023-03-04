@@ -125,6 +125,11 @@ Each item opened a new tab when clicked as expected.
 
 ![Lessons HTML Validator Results](docs/images/lessons_validator.JPG)
 
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+  ![CSS Validator Results](docs/images/css-validation.JPG)
+
 ### Test Email Link
 
 1. Navigate to [Dance With Rupa - Home Page]()
